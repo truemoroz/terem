@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вятский терем</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css?1">
+    <link rel="stylesheet" href="css/font-awesome.min.css?1">
+    <link rel="stylesheet" href="css/jquery.fullPage.css?1">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css?1">
+    <link rel="stylesheet" href="css/slick.css?1">
+    <link rel="stylesheet" href="css/animate.css?1">
+    <link rel="stylesheet" href="css/style.css?1">
+    <script src="js/jquery-3.2.1.min.js?1"></script>
+    <!--<script src="js/jquery.fullPage.min.js?1"></script>-->
+    <script src="js/jquery.fancybox.min.js?1"></script>
+    <script src="js/jquery.fullPage.js?1"></script>
+    <script src="js/slick.min.js?1"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js?1"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js?1"></script>
+    <script src="js/main.js?1"></script>
+</head>
+<body>
+
+<!--BEGIN video-popup-->
+<!--<div id="video" class="video-popup">-->
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/obPUO5muXHI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+<!--</div>-->
+<!--END video-popup-->
+
+<div id="menu">
+
+    <!--<a class="menu__item">Дом вашей мечты</a>-->
+    <!--<a class="menu__item">Почему мы</a>-->
+    <!--<a class="menu__item">Как работаем</a>-->
+    <!--<a class="menu__item">Своё производство</a>-->
+    <!--<a class="menu__item">Прозрачность проект</a>-->
+    <!--<a class="menu__item">Наша команда</a>-->
+
+    <div id="myMenu" class="menu-wrapper">
+        <!--<ul id="myMenu">-->
+        <!--<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Дом вашей мечты</a></li>-->
+        <!--<li data-menuanchor="secondPage"><a href="#secondPage">Почему мы</a></li>-->
+        <!--<li data-menuanchor="thirdPage"><a href="#thirdPage">Как работаем</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Своё производство</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Прозрачность проекта</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Наша команда</a></li>-->
+        <!--</ul>-->
+        <div class="menu__title">Меню</div>
+        <a href="#dream_page" data-href="#dream">Дом вашей мечты</a>
+        <a href="#why_page" data-href="#why">Почему мы</a>
+        <a href="#how_page" data-href="#how">Как работаем</a>
+        <a href="#prod_page" data-href="#prod">Своё производство</a>
+        <a href="#opacity_page" data-href="#opacity">Прозрачность проекта</a>
+        <a href="#team_page" data-href="#team">Наша команда</a>
+
+        <!--<li data-menuanchor="thirdPage"><a href="#thirdPage">Как работаем</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Своё производство</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Прозрачность проекта</a></li>-->
+        <!--<li data-menuanchor="fourthPage"><a href="#fourthPage">Наша команда</a></li>-->
+    </div>
+</div>
+
+<section class="header">
+    <div class="header__menu"><a href="#menu" data-fancybox class="fa fa-bars fa-2x" aria-hidden="true"></a></div>
+    <div class="header__logo">
+        <div class="header__logo-v">VЯTSKI</div>
+        <div class="header__logo-t">TEREM</div>
+    </div>
+    <div class="header__tel">
+        <div class="header__tel-rf">Бесплатный звонок по РФ: 8 800 555 81 34</div>
+        <div class="header__tel-mo">Офис в Москве и МО: 8 495 215 14 82</div>
+    </div>
+</section>
+
+
+<div id="fullpage" data-anchor="firstPage">
+    <!--class="vertical-scrolling"-->
+    <div id="first" class="section">
+        <div class="first__bg"></div>
+        <div class="data-wrapper data_right">
+            <div class="data">
+                <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                    дней!
+                </div>
+                <div class="data__button-group">
+                    <a href="#form_page" data-href="#form" class="data__button">Получить бесплатную консультацию</a>
+                    <div class="data__play-wrapper">
+                        <!--<div href="#video"-->
+                        <!--class="data__play js-popup"><i class="fa fa-play" aria-hidden="true"></i></div>-->
+                        <a class="data__play" data-fancybox href="https://www.youtube.com/watch?v=obPUO5muXHI">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </a>
+
+                        <!--<a data-fancybox href="https://vimeo.com/191947042">-->
+                        <!--Vimeo video-->
+                        <!--</a>-->
+                        <div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dream" class="section">
+        <div class="dream__mobil  data_right">
+            <div class="data">
+                <div class="data__title">Построим дом вашей мечты</div>
+                <div class="data__text">Никаких шаблонных решений и типовых стандартных построек.
+                    Мы построим дом, <span class="brown">учитывая все ваши пожелания</span> и соберем команду из лучших дизайнеров и
+                    проектировщиков, которые будут работать только над вашим проектом.
+                </div>
+                <div class="data__button-group">
+                    <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                    <div class="data__nav-wrapper">
+                        <div class="data__nav-left fp-controlArrow active-nav fp-prev js-fp-prev"><i
+                                class="fa fa-angle-left fa-2x"
+                                aria-hidden="true"></i></div>
+                        <div class="data__nav-num"><span>01</span>/06</div>
+                        <div class="data__nav-right fp-controlArrow active-nav fp-next js-fp-next"><i
+                                class="fa fa-angle-right fa-2x"
+                                aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_1">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data">
+                    <div class="data__title">Построим дом вашей мечты</div>
+                    <div class="data__text">Никаких шаблонных решений и типовых стандартных построек.
+                        Мы построим дом, <span class="brown">учитывая все ваши пожелания</span> и соберем команду из лучших дизайнеров и
+                        проектировщиков, которые будут работать только над вашим проектом.
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev js-fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>01</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next js-fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_2">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data ">
+                    <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                    <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                        дней!
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>02</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_3">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data ">
+                    <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                    <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                        дней!
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>03</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_4">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data ">
+                    <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                    <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                        дней!
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>04</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_5">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data ">
+                    <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                    <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                        дней!
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>05</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide_6">
+            <div class="slide-wrapper data-wrapper data_right">
+                <div class="data ">
+                    <div class="data__title">Производство, проектирование и строительство элитных деревянных домов</div>
+                    <div class="data__text">Мы построим дом вашей мечты из экологически чистых материалов всего за 80
+                        дней!
+                    </div>
+                    <div class="data__button-group">
+                        <a href="#form_page" data-href="#form" class="data__button">Смотреть проект</a>
+                        <div class="data__nav-wrapper">
+                            <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                    class="fa fa-angle-left fa-2x"
+                                    aria-hidden="true"></i></div>
+                            <div class="data__nav-num"><span>06</span>/06</div>
+                            <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                    class="fa fa-angle-right fa-2x"
+                                    aria-hidden="true"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="horizontal-scrolling">-->
+        <!--<h2>fullPage.js?1</h2>-->
+        <!--<h3>This is the fifth section and it contains the first slide (actually section == first slide)</h3>-->
+        <!--</div>-->
+        <!--<div class="horizontal-scrolling">-->
+        <!--<h2>fullPage.js?1</h2>-->
+        <!--<h3>This is the second slide</h3>-->
+        <!--<p class="end">Thank you!</p>-->
+        <!--</div>-->
+
+    </div>
+    <div id="why" class=" section ">
+        <div class="data-wrapper data_center">
+            <div class="data">
+                <div class="data__title data__title_center data__title_border mb50">Вам понравится работать с нами,
+                    если вы:
+                </div>
+                <div class="data__bullets">
+                    <div class="data__bullet">
+                        <div class="data__bullet-num"><span class="data__bullet-num_mod">01</span></div>
+                        <div class="data__bullet-text">Не понимаете, как <span class="brown">выбрать подходящий
+                            проект</span>
+                            среди огромного
+                            многообразия вариантов
+                        </div>
+                    </div>
+                    <div class="data__bullet">
+                        <div class="data__bullet-num"><span class="data__bullet-num_mod">02</span></div>
+                        <div class="data__bullet-text">Вдохновились образом дома у друзей и, в целом, хотите нечто
+                            подобное, но с учётом <span class="brown">ваших пожеланий</span>
+                        </div>
+                    </div>
+                    <div class="data__bullet">
+                        <div class="data__bullet-num"><span class="data__bullet-num_mod">03</span></div>
+                        <div class="data__bullet-text"><span class="brown">Примерно знаете</span>, что хотите
+                            (есть вырезки из журналов, отрывки
+                            из голливудских фильмов,
+                            где вам понравился особый
+                            элемент, ссылки на фото)
+                        </div>
+                    </div>
+                    <div class="data__bullet">
+                        <div class="data__bullet-num"><span class="data__bullet-num_mod">04</span></div>
+                        <div class="data__bullet-text">Не знаете, что именно хотите,
+                            но есть желание построить то, <span class="brown">чего ни у кого нет</span>, с учётом всех последних тенденций
+                            строительной моды
+                        </div>
+                    </div>
+                </div>
+                <a href="#form_page" data-href="#form" class="data__button data__button_border ">Вы мне подходите!</a>
+            </div>
+        </div>
+    </div>
+    <div id="how" class="section section_center">
+        <div class="data-wrapper data_center ">
+            <div class="data data_mod">
+                <div class="data__title data__title_center mb50">Как мы будем с вами работать</div>
+                <div class="data__bullets">
+                    <div class="data__bullet data__bullet_left">
+                        <div class="data__bullet-num bold">Шаг <span>№1</span></div>
+                        <div class="data__bullet-text">К вам приедет дизайнер, который <span class="brown">вместе с вами</span> нарисует ваш дом.
+
+                        </div>
+                    </div>
+                    <div class="data__bullet data__bullet_left">
+                        <div class="data__bullet-num bold">Шаг <span>№2</span></div>
+                        <div class="data__bullet-text">На основании рисунка и <span class="brown">ваших предпочтений</span> составляется
+                            несколько эскизных проектов. Вы подтверждаете, после чего мы составляем смету.
+
+                        </div>
+                    </div>
+                    <div class="data__bullet data__bullet_left">
+                        <div class="data__bullet-num bold">Шаг <span>№3</span></div>
+                        <div class="data__bullet-text">Затем вы встречаетесь с нашим менеджером, утверждаете ещё раз
+                            весь проект, и мы заключаем с вами договор на <span class="brown">строительство дома</span>.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="prod" class=" section">
+        <div class="data-wrapper">
+            <div class="data__left">
+                <img src="./img/bg51.jpg" alt="">
+                <img src="./img/bg52.jpg" alt="">
+                <img src="./img/bg53.jpg" alt="">
+            </div>
+            <div class="data__right">
+
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_1">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>01</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <!--<div class="data__play"><i class="fa fa-play" aria-hidden="true"></i></div>-->
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_2">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>02</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_3">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>03</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_4">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>04</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_5">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>05</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_6">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>06</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide__wrapper slide__wrapper_7">
+                        <div class="data ">
+                            <div class="data__title">Производство</div>
+                            <div class="data__text">Мы сами производим строительные материалы для наших домов.
+                                При желании вы можете посетить производство.
+                            </div>
+                            <div class="data__button-group">
+
+                                <div class="data__nav-wrapper">
+                                    <div class="data__nav-left fp-controlArrow active-nav fp-prev"><i
+                                            class="fa fa-angle-left fa-2x"
+                                            aria-hidden="true"></i></div>
+                                    <div class="data__nav-num"><span>07</span>/07</div>
+                                    <div class="data__nav-right fp-controlArrow active-nav fp-next"><i
+                                            class="fa fa-angle-right fa-2x"
+                                            aria-hidden="true"></i></div>
+                                </div>
+                                <div class="data__play-wrapper">
+                                    <a class="data__play" data-fancybox href="https://youtu.be/8UfhIylwtEU">
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </a>
+                                    <!--<div class="data__play-text">Узнайте о компании<br>за 3 минуты</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--</div>-->
+
+            </div>
+        </div>
+
+    </div>
+    <div id="opacity" class=" section ">
+        <div class="data-wrapper data_center">
+            <div class="data">
+                <div class="data__title data__title_center data__title_border1 mb50">С нами вы уверены в прозрачности
+                    проекта
+                </div>
+                <div class="data__bullets">
+                    <div class="data__bullet">
+                        <div class="data__bullet-num data__bullet-num_mod1"><i class="fa fa-rub fa-lg"
+                                                                               aria-hidden="true"></i></div>
+                        <div class="data__bullet-text">На протяжении всей работы
+                            <span class="brown">мы не меняем смету и сохраняем её</span> с учётом всех ваших пожеланий,
+                            только если вы не захотите внести корректировки сами.
+                        </div>
+                    </div>
+                    <div class="data__bullet">
+                        <div class="data__bullet-num data__bullet-num_mod1"><i class="fa fa-eye fa-lg"
+                                                                               aria-hidden="true"></i></div>
+                        <div class="data__bullet-text">Прозрачность и <span class="brown">наблюдение за этапами работ в режиме 24/7</span>. В любой
+                            момент
+                            вы сможете узнать и увидеть, на каком этапе находится реализация
+                            вашего проекта.
+                        </div>
+                    </div>
+                    <div class="data__bullet">
+                        <div class="data__bullet-num data__bullet-num_mod1"><i class="fa fa-camera fa-lg"
+                                                                               aria-hidden="true"></i></div>
+                        <div class="data__bullet-text">Вы будете получать от нас <span class="brown">подробный фотоотчёт</span> о каждом этапе
+                            строительства, благодаря чему вы сможете убедиться,
+                            что всё идёт по плану с соблюдением всех условий и пожеланий.
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#form_page" data-href="#form" class="data__button data__button_border">Свяжитесь со мной</a>
+            </div>
+        </div>
+    </div>
+    <div id="team" class="section">
+        <div class="data-wrapper data-wrapper_end data_center">
+            <div class="data">
+                <div class="data__title data__title_center">Команда</div>
+                <div class="data__text data__text_center">Наша задача — сохранить ваше время и построить
+                    дом вашей мечты
+                </div>
+                <div class="data__text data__text_center">Мы можем из 20 понравившихся вам проектов создать единственный
+                    дом как пазл,
+                    где каждый элемент представляет кусочек <span class="brown">вашей мечты</span>.
+                </div>
+                <div class="data__text data__text_center">Оставьте заявку, мы перезвоним вам и расскажем подробнее, как
+                    уже через 80
+                    дней вы сможете заехать в свой новый, уютный и безопасный дом.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="people" class="section">
+        <div class="data-wrapper data_foto">
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people2.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Перевозников Павел Сергеевич</div>
+                        <div class="back__position">Директор по строительству ГК «Вятский Терем»</div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people5.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back-half">
+                            <div class="back__name">Янченко Алексей Анатольевич</div>
+                            <div class="back__position">Генеральный директор группы компаний «Вятский Терем»</div>
+                        </div>
+
+                        <div class="back-half">
+                            <div class="back__name">Янченко Елена</div>
+                            <div class="back__position">Руководитель отдела продаж группы компаний «Вятский Терем»</div>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people1.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Никулин Юрий Геннадьевич</div>
+                        <div class="back__position">Начальник деревообрабатывающего комбината</div>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people3.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Тимшин Владимир Ильич</div>
+                        <div class="back__position">Мастер СМУ</div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people4.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Якимов Николай Дмитриевич</div>
+                        <div class="back__position">Руководитель компьютерной службы</div>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people6.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Шадрин Владимир</div>
+                        <div class="back__position">Специалист по интернет-маркетингу</div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people7.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Анисимов Игорь</div>
+                        <div class="back__position">Архитектор</div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people8.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Шишкин Дмитрий</div>
+                        <div class="back__position">Инженер-проектировщик</div>
+                    </figure>
+                </div>
+            </section>
+            <section class="data_foto-container">
+                <div class="data_foto-card">
+                    <figure class="front"><img src="./img/people9.jpg" alt=""></figure>
+                    <figure class="back">
+                        <div class="back__name">Скородума Ольга</div>
+                        <div class="back__position">Руководитель проектного отдела</div>
+                    </figure>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <div id="form" class="section">
+        <div class="data-wrapper data_center">
+            <div class="data">
+
+                <div class="data__mod"><img src="./img/num_border.png" alt=""></div>
+                <!--<div class="data__mod"></div>-->
+
+                <form><span>Здравствуйте! Меня зовут</span>
+                    <div><input type="text" placeholder="Введите ваше имя" required>&nbsp;<span>.</span></div>
+                    <span>Мой телефон</span>
+                    <!--<input type="tel" placeholder="Введите ваш телефон">-->
+                    <input type="text" class="js-phone" name="ph" placeholder="Введите ваш телефон" data-rule-required="true" data-rule-minlength="10" data-msg="Введите номер телефона">
+                    , так же у меня есть
+                    <nobr>e-mail</nobr>
+                    <input type="email" name="mail" placeholder="Введите ваш e-mail" data-rule-required="true" required>.
+                    Пожалуйста,
+                    свяжитесь со мной, я хочу свой дом мечты
+                    всего за 80 дней!<br>
+                    <a href="#" class="data__button data__button_border mt50">Свяжитесь со мной</a>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
